@@ -56,6 +56,7 @@ You should be able to write it in pure SQL, but if too challenging, you may use 
 Resultset enclosed in Q4-Resultset.csv
 
 ***Question 5
-In the database SQLPlayground, write a SQL query selecting all the customers' data who have purchased all the products AND have bought more than 50 products in total (sum of all purchases).
+
+ In the database SQLPlayground, write a SQL query selecting all the customers' data who have purchased all the products AND have bought more than 50 products in total (sum of all purchases).
 Resultset enclosed in Q5-Resultset.csv
 
