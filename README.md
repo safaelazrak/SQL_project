@@ -1,6 +1,7 @@
 # SQL_project
 
-*** Question 1 :
+***Question 1
+
 Using the database WideWorldImporters, write a SQL query which reports the consistency between orders and their attached invoices.
 The resultset should report for each (CustomerID, CustomerName)
  a. the total number of orders: TotalNBOrders 
@@ -27,6 +28,7 @@ If you haven't managed to answer Q1, add the following selection query to the pr
 
 
 ***Question 3
+
 Using the database WideWorldImporters, write a T-SQL stored procedure called ReportCustomerTurnover.
 This procedure takes two parameters: Choice and Year, both integers.
 
@@ -48,6 +50,7 @@ EXEC dbo.ReportCustomerTurnover 3;
 
 
 ***Question 4
+ 
 In the database WideWorldImporters, write a SQL query which reports the highest loss of money from orders not being converted into invoices, by customer category. The name and id of the customer who generated this highest loss must also be identified. The resultset is ordered by highest loss.
 You should be able to write it in pure SQL, but if too challenging, you may use T-SQL and cursors.
 Resultset enclosed in Q4-Resultset.csv
